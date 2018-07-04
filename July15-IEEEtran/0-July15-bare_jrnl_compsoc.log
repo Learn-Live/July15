@@ -1,9 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6650) (preloaded format=pdflatex 2018.7.3)  3 JUL 2018 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.4)  4 JUL 2018 08:25
 entering extended mode
-**./0-July15-bare_jrnl_compsoc.tex
-(0-July15-bare_jrnl_compsoc.tex
-LaTeX2e <2018-04-01> patch level 5
-(IEEEtran.cls
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**0-July15-bare_jrnl_compsoc.tex
+(./0-July15-bare_jrnl_compsoc.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 22 language(s) loaded.
+(./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -16,9 +19,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 503.
 
-
-("/Users/kunyang/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ps
-nfss/ot1ppl.fd"
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 -- Using IEEE Computer Society mode.
@@ -115,14 +116,12 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24.09> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count94
 \@IEEEtranrubishbin=\box27
-)
-("/Users/kunyang/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ci
-te/cite.sty"
+) (/usr/local/texlive/2018basic/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(/Users/kunyang/PycharmProjects/July15/auxil/0-July15-bare_jrnl_compsoc.aux)
+(./0-July15-bare_jrnl_compsoc.aux)
 \openout1 = `0-July15-bare_jrnl_compsoc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 370.
@@ -141,9 +140,7 @@ LaTeX Font Info:    ... okay on input line 370.
 -- Lines per column: 61 (exact).
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 485.
 
-
-("/Users/kunyang/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ps
-nfss/ot1phv.fd"
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <11.04124> not available
@@ -167,15 +164,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.52061> on input line 485.
 LaTeX Font Info:    Try loading font information for U+pzd on input line 485.
 
-("/Users/kunyang/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ps
-nfss/upzd.fd"
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-Underfull \hbox (badness 1838) in paragraph at lines 485--485
-[]\OT1/ppl/m/it/8.03 M. Shell was with the Department of Electrical and Compute
-r
- []
-
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 513.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
@@ -201,36 +192,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.91833> on input line 785.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <3.51312> on input line 785.
-[1{/Users/kunyang/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/
-pdftex.map}
+ [1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-(/Users/kunyang/PycharmProjects/July15/auxil/0-July15-bare_jrnl_compsoc.aux) ) 
+(./0-July15-bare_jrnl_compsoc.aux) ) 
 Here is how much of TeX's memory you used:
- 1296 strings out of 494891
- 23950 string characters out of 3176866
- 80341 words of memory out of 3000000
- 4957 multiletter control sequences out of 15000+200000
- 52465 words of font info for 103 fonts, out of 3000000 for 9000
- 3 hyphenation exceptions out of 8191
- 31i,8n,31p,224b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
- 
-</Users/kunyang/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/
-public/cm/dpi600/cmsy8.pk>{/Users/kunyang/Library/Application Support/MiKTeX/te
-xmfs/install/fonts/enc/dvips/base/8r.enc}</Users/kunyang/Library/Application Su
-pport/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhvb8a.pfb></Users/kunyang
-/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/helvetic/uhv
-r8a.pfb></Users/kunyang/Library/Application Support/MiKTeX/texmfs/install/fonts
-/type1/urw/helvetic/uhvro8a.pfb></Users/kunyang/Library/Application Support/MiK
-TeX/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb></Users/kunyang/Library/
-Application Support/MiKTeX/texmfs/install/fonts/type1/urw/palatino/uplri8a.pfb>
-</Users/kunyang/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/u
-rw/zapfding/uzdr.pfb>
-Output written on /Users/kunyang/PycharmProjects/July15/out/0-July15-bare_jrnl_
-compsoc.pdf (1 page, 70663 bytes).
+ 1292 strings out of 494091
+ 23213 string characters out of 6163524
+ 81616 words of memory out of 5000000
+ 5005 multiletter control sequences out of 15000+600000
+ 52465 words of font info for 103 fonts, out of 8000000 for 9000
+ 322 hyphenation exceptions out of 8191
+ 31i,8n,31p,221b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018basic/texmf-dist/fo
+nts/enc/dvips/base/8r.enc}</usr/local/texlive/2018basic/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/u
+rw/helvetic/uhvro8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/ur
+w/palatino/uplr8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/
+palatino/uplri8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/z
+apfding/uzdr.pfb>
+Output written on 0-July15-bare_jrnl_compsoc.pdf (1 page, 72941 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
