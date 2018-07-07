@@ -626,10 +626,78 @@ designed based on the analysis of packet contents, such as the port-based method
 A Network Traffic Classifier (NTC) is an important
 part of current network monitoring systems, being its task to infer the network service that is currently used by a communication flow (e.g. HTTP, SIP…). The detection is based on a number of features associated with the communication flow, for example, source and destination ports and bytes transmitted per packet. NTC is important because much information about a current network flow can be learned and anticipated just by knowing its network service (required latency, traffic volume, possible duration…). This is of particular interest for the management and monitoring of Internet of Things (IoT) networks, where NTC will help to segregate traffic and behavior of heterogeneous devices and services. In this paper, we present a new technique for NTC based on a combination of deep learning models that can be used for IoT traffic. We show that a Recurrent Neural Network (RNN) combined with a Convolutional Neural Network (CNN) provides best detection results. The natural domain for a CNN, which is image processing, has been extended to NTC in an easy and natural way. We show that the proposed method provides better detection results than alternative algorithms without requiring any feature engineering, which is usual when applying other models. A complete study is presented on several architectures that integrate a CNN and an RNN, including the impact of the features chosen and the length of the network flows used for training.
 
+\cite{Taylor2018}
+Much work has been done on analysing traffic from work-
+stations and web browsers [4]. At first glance, fingerprinting smartphone apps may seem to be a simple translation of exist- ing work. While there are some similarities, there are nuances in the type of traffic sent by smartphones and the way in which it is sent that makes traffic analysis on smartphones dis- tinct from traffic analysis on traditional workstations [5]–[8]. We outline related work by first enumerating traffic analysis approaches on workstations (Section II-A), and then focusing on traffic analysis on smartphones (Section II-B)
 
 \cite{Anderson2017}
 
+\cite{Zhang2014}
+As a fundamental tool for network management and
+security, traffic classification has attracted increasing atte
+ntion in
+recent years. A significant challen
+ge to the robustness of classifi-
+cation performance comes from ze
+ro-day applications previously
+unknown in traffic classification systems. In this paper, we pr
+opose
+a new scheme of Robust statistical Traffic Classification (RTC)
+by  combining  supervised  and  un
+supervised  machine  learning
+techniques to meet this challenge. The proposed RTC
+scheme has
+the capability of identifying the traffic of zero-day applications as
+well as accurately discriminating predefined application classes.
+In addition, we develop a new method for automatin
+gtheRTC
+scheme parameters optimization process. The empirical study on
+real-world traffic data confirms the effectiveness of the proposed
+scheme. When zero-day applications are pr
+esent, the classifica-
+tion performance of the new scheme is significantly better than
+four state-of-the-art methods: random forest, correlation-based
+classification, semi-supervised clust
+ering, and one-class SVM.
+T
+RAFFIC classification is fundamental to network man-
+agement and security [1], which can identify different
+applications and protocols that exist in a network. For example,
+most QoS control mechanisms have a traffic classification
+module in order to properly prioritize different applications
+across the limited bandwidth. To implement appropriate secu-
+rity policies, it is essential for any network manager to obtain
+a proper understanding of applications and protocols in the
+network traffic. Over the last decade, traffic classification has
+been given a lot of attention fr
+om both industry and academia.
+There are three categories of t
+raffic classification methods:
+port-based, payload-based, and
+flow statistics-based [2]. The
+traditional port-based method relies on checking standard ports
+used by well-known applications. However, it is not always
+reliable because not all current applications use standard ports.
+Some applications even obfuscate themselves by using the
+well-defined ports of other applications. The payload-based
+method searches for the applicat
+ion's signature in the payload
+of IP packets that can help avoid the problem of dynamic
+ports. Hence, it is most prevalent in current industry products.
 %
+
+\cite{Bujlow2015}
+Network communication became the standard way of
+exchanging information between applications located on
+different hosts. The exchanged application-layer data is
+segmented and encapsulated into IP packets, which are
+transmitted through the network. Deep Packet Inspection
+(DPI) tools analyze the content of the packets by searching
+for specific patterns (i.e., signatures). Thus, DPI became one
+of the fundamental traffic analysis methods for many tools
+performing traffic classification, network management,
+intrusion detection, and network forensics.
+
 %\hfill mds
 % 
 %\hfill August 26, 2015
@@ -668,6 +736,69 @@ combing SDN and deep learning. With the powerful computing capability, we use th
 network traffic and flow statistics. We construct a hybrid deep learning network model, which is composed of the stacked
 autoencoder and the softmax regression layer, to extract flow features and build the application classifie
 
+
+\cite{Anderson2017}
+
+The application of machine learning for the detection of malicious
+network traffic has been well researched over the past several
+z%decades, it is particularly appealing when traffic is encrypted
+because traditional pattern-matching approaches cannot be used.
+Unfortunately, the promise of machine learning has been slow to
+materialize  in  the  network  security  domain.  In  this  paper,  we
+highlight two primary reasons why this is the case: inaccurate
+ground truth and a highly non-stationary data distribution. To
+demonstrate and understand the ee that these pitfalls have on
+%% popular machine learning algorithms, we design and carry out
+experiments that show how six common algorithms perform when
+confronted with real network data.
+
+
+\cite{Haddadi2016}
+Botnets represent one of the most aggressive threats
+against cyber security. Different techniques using different feature
+sets have been proposed for botnet traffic analysis and classifica-
+tion. However, no work has been performed to study the effect of
+such differences. In this paper, we perform a study on the effect of
+(if any) the feature sets of network traffic flow exporters. To this
+end, we explore five different traffic flow exporters (each with a
+different set of flow features) using two different protocol filters
+[Hypertext Transfer Protocol (HTTP) and Domain Name System
+(DNS)] and five different classifiers. We evaluate all these on eight
+different botnet traffic data sets. Our results indicate that the use
+of a flow exporter and a protocol filter indeed has an effect on the
+performance of botnet traffic classification. Experimental results
+show that the best performance is achieved using Tranalyzer flow
+exporter and HTTP filter with the C4.5 classifier.
+
+\cite{Loo2016}
+
+Network traffic classification is a critical network processing
+taskfornetworkmanagement.Trafficmeasurementandclas-
+sification enable network administrators to understand the
+current network state and reconfigure the network such that
+the observed network state can be improved over time. The
+complexity and dynamic characteristic of today’s network
+traffichavenecessitatedtheneedfortrafficclassificationtech-
+niques that are able to adapt to new concepts. This includes
+theabilitytoclassifytypesoftrafficalmostinstantaneouslyto
+avoid outdating the knowledge gained from the learning of
+newconcepts.
+Data stream mining techniques are able to classify evolving data streams such as network traffic in the presence of concept
+drift. In order to classify high bandwidth network traffic in real
+-time, data stream mining classifiers need to be implemented on
+reconfigurable high throughput platform, such as Field Programmable Gate Array (FPGA). This paper proposes an algorithm for
+%onlinenetworktrafficclassificationbasedontheconceptofincremental
+%
+%-meansclusteringtocontinuouslylearnfrombothlabeled
+%andunlabeledflowinstances.Twodistancemeasuresforincremental
+%
+%-means(EuclideanandManhattan)distanceareanalyzedto
+%measuretheirimpactonthenetworktrafficclassificationinthepresenceofconceptdrift.Theexperimentalresultsonrealdatasets
+%showthattheproposedalgorithmexhibitsconsistency,upto94%averageaccuracyforbothdistancemeasures,eveninthepresence
+%of concept drifts. The proposed incremental
+
+-means classification using Manhattan distance can classify network traffic 3 times
+fasterthanEuclideandistanceat671thousandsflowinstancespersecond
 
 
 \section{The proposed method}
@@ -806,6 +937,9 @@ Attack, P2P, Database, FTP-data, Multimedia, and Services).
 
 
 \section{Discussions}
+\subsection{Compare with related work}
+
+\subsection{Limitations}
 
 \section{Conclusion}\label{ch:first}
 The conclusion goes here \ref{ch:first}.

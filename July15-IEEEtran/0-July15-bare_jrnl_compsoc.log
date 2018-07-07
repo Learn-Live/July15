@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.4)  7 JUL 2018 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.4)  7 JUL 2018 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -277,24 +277,57 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
 
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 580.
+ [2]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 637.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 705.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 643.
-<figures/dataset_distribution.png, id=9, 321.2pt x 278.03876pt>
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 711.
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--799
+[]\OT1/ppl/m/n/9.53561 Network traf-fic clas-si-fi-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--799
+\OT1/ppl/m/n/9.53561 is a crit-i-cal net-work pro-cess-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--799
+\OT1/ppl/m/n/9.53561 taskfornetworkmanagement.Trafficmeasurementandclas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--799
+\OT1/ppl/m/n/9.53561 traffichavenecessitatedtheneedfortrafficclassificationtech
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--799
+\OT1/ppl/m/n/9.53561 the-abil-i-ty-to-clas-si-fy-type-sof-t-raf-fi-cal-mostin-s
+tan-ta-neous-lyto
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 800--802
+[]\OT1/ppl/m/n/9.53561 -means clas-si-fi-ca-tion us-ing Man-hat-tan dis-tance c
+an
+ []
+
+<figures/dataset_distribution.png, id=13, 321.2pt x 278.03876pt>
 File: figures/dataset_distribution.png Graphic file (type png)
 <use figures/dataset_distribution.png>
-Package pdftex.def Info: figures/dataset_distribution.png  used on input line 6
-86.
+Package pdftex.def Info: figures/dataset_distribution.png  used on input line 8
+17.
 (pdftex.def)             Requested size: 180.67499pt x 156.40065pt.
- [2]
-(./0-July15-bare_jrnl_compsoc.bbl) [3 <./figures/dataset_distribution.png>]
+[3] (./0-July15-bare_jrnl_compsoc.bbl) [4 <./figures/dataset_distribution.png>]
 (./0-July15-bare_jrnl_compsoc.aux) ) 
 Here is how much of TeX's memory you used:
- 2480 strings out of 494091
- 41535 string characters out of 6163524
- 118872 words of memory out of 5000000
- 6130 multiletter control sequences out of 15000+600000
+ 2484 strings out of 494091
+ 41580 string characters out of 6163524
+ 118885 words of memory out of 5000000
+ 6134 multiletter control sequences out of 15000+600000
  43991 words of font info for 90 fonts, out of 8000000 for 9000
  322 hyphenation exceptions out of 8191
  41i,7n,31p,1499b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -306,10 +339,10 @@ helvetic/uhvro8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/p
 alatino/uplr8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/pal
 atino/uplri8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/zapf
 ding/uzdr.pfb>
-Output written on 0-July15-bare_jrnl_compsoc.pdf (3 pages, 143537 bytes).
+Output written on 0-July15-bare_jrnl_compsoc.pdf (4 pages, 150474 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

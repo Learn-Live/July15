@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex 0-July15-bare_jrnl_compsoc"] 1530978171 "0-July15-bare_jrnl_compsoc.aux" "0-July15-bare_jrnl_compsoc.bbl" "0-July15-bare_jrnl_compsoc" 1530978179
+["bibtex 0-July15-bare_jrnl_compsoc"] 1530982137 "0-July15-bare_jrnl_compsoc.aux" "0-July15-bare_jrnl_compsoc.bbl" "0-July15-bare_jrnl_compsoc" 1530982137
   "./bibtex/IEEEtran.bst" 1440644170 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "0-July15-bare_jrnl_compsoc.aux" 1530978179 1521 1593929caa667b83c2d3393560a1cec2 ""
-  "bibtex/IEEEbib-July15.bib" 1530975657 52367 be332923ca7aaa2a8722f1f23649a7da ""
+  "0-July15-bare_jrnl_compsoc.aux" 1530982137 1916 650a915d9f44bb39ed67f481ec8febce ""
+  "bibtex/IEEEbib-July15.bib" 1530982054 62592 5b6ad8dcc6b2ccbc2ce4d180f3778a87 ""
   (generated)
-  "0-July15-bare_jrnl_compsoc.blg"
   "0-July15-bare_jrnl_compsoc.bbl"
-["pdflatex"] 1530978178 "0-July15-bare_jrnl_compsoc.tex" "0-July15-bare_jrnl_compsoc.pdf" "0-July15-bare_jrnl_compsoc" 1530978179
+  "0-July15-bare_jrnl_compsoc.blg"
+["pdflatex"] 1530982137 "0-July15-bare_jrnl_compsoc.tex" "0-July15-bare_jrnl_compsoc.pdf" "0-July15-bare_jrnl_compsoc" 1530982137
   "/usr/local/texlive/2018basic/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018basic/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1480098688 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
   "/usr/local/texlive/2018basic/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1480098688 4484 b828043cbd581d289d955903c1339981 ""
@@ -70,12 +70,12 @@
   "/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1530717029 80003 9cd63f793773a532ff4ca05ecdf115b0 ""
   "/usr/local/texlive/2018basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1530704816 2657847 4f32d7caff93c6051f097871e317fae6 ""
   "/usr/local/texlive/2018basic/texmf.cnf" 1523933242 628 fc6344cfe40d0ae2a8eba43e51328a06 ""
-  "0-July15-bare_jrnl_compsoc.aux" 1530978179 1521 1593929caa667b83c2d3393560a1cec2 ""
-  "0-July15-bare_jrnl_compsoc.bbl" 1530978171 2596 1700a807d25ff8d975a08c185912d310 "bibtex 0-July15-bare_jrnl_compsoc"
-  "0-July15-bare_jrnl_compsoc.tex" 1530978178 45770 da66558e53444b4c713ca559997cb3f6 ""
+  "0-July15-bare_jrnl_compsoc.aux" 1530982137 1916 650a915d9f44bb39ed67f481ec8febce ""
+  "0-July15-bare_jrnl_compsoc.bbl" 1530982137 3592 a9e3e27efa1bbf9f4e0e03778e295d06 "bibtex 0-July15-bare_jrnl_compsoc"
+  "0-July15-bare_jrnl_compsoc.tex" 1530982135 52800 ea8342b73c3bdd899c2a9a5992944929 ""
   "IEEEtran.cls" 1530707129 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "figures/dataset_distribution.png" 1530977537 85667 81e4dc1e982daa5096e71cb31ae3fea2 ""
   (generated)
-  "0-July15-bare_jrnl_compsoc.log"
   "0-July15-bare_jrnl_compsoc.aux"
+  "0-July15-bare_jrnl_compsoc.log"
   "0-July15-bare_jrnl_compsoc.pdf"

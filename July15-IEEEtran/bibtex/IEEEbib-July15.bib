@@ -151,6 +151,95 @@ full names.
   year = {2018}
 }
 
+@article{Taylor2018-1,
+    abstract = {The apps installed on a smartphone can reveal much information about a user, such as their medical conditions, sexual orientation, or religious beliefs. Additionally, the presence or absence of particular apps on a smartphone can inform an adversary who is intent on attacking the device. In this paper, we show that a passive eavesdropper can feasibly identify smartphone apps by fingerprinting the network traffic that they send. Although SSL/TLS hides the payload of packets, side-channel data such as packet size and direction is still leaked from encrypted connections. We use machine learning techniques to identify smartphone apps from this side-channel data. In addition to merely fingerprinting and identifying smartphone apps, we investigate how app fingerprints change over time, across devices and across different versions of apps. Additionally, we introduce strategies that enable our app classification system to identify and mitigate the effect of ambiguous traffic, i.e., traffic in common among apps such as advertisement traffic. We fully implemented a framework to fingerprint apps and ran a thorough set of experiments to assess its performance. We fingerprinted 110 of the most popular apps in the Google Play Store and were able to identify them six months later with up to 96{\%} accuracy. Additionally, we show that app fingerprints persist to varying extents across devices and app versions.},
+    archivePrefix = {arXiv},
+    arxivId = {1704.06099},
+    author = {Taylor, Vincent F. and Spolaor, Riccardo and Conti, Mauro and Martinovic, Ivan},
+    doi = {10.1109/TIFS.2017.2737970},
+    eprint = {1704.06099},
+    file = {:Users/kunyang/Documents/MendeleyDB/IEEE Transactions on Information Forensics and Security/Taylor et al. - 2018 - Robust Smartphone App Identification via Encrypted Network Traffic Analysis.pdf:pdf},
+    issn = {15566013},
+    journal = {IEEE Transactions on Information Forensics and Security},
+    keywords = {Cellular phones,information security,privacy},
+    mendeley-groups = {CyberSpaceSecurity/Traffic},
+    number = {1},
+    pages = {63--78},
+    title = {{Robust Smartphone App Identification via Encrypted Network Traffic Analysis}},
+    volume = {13},
+    year = {2018}
+}
+
+
+
+@article{Zhang2014,
+    abstract = {As a fundamental tool for network management and security, traffic$\backslash$nclassification has attracted increasing attention in recent years. A$\backslash$nsignificant challenge to the robustness of classification performance$\backslash$ncomes from zero-day applications previously unknown in traffic$\backslash$nclassification systems. In this paper, we propose a new scheme of Robust$\backslash$nstatistical Traffic Classification (RTC) by combining supervised and$\backslash$nunsupervised machine learning techniques to meet this challenge. The$\backslash$nproposed RTC scheme has the capability of identifying the traffic of$\backslash$nzero-day applications as well as accurately discriminating predefined$\backslash$napplication classes. In addition, we develop a new method for automating$\backslash$nthe RTC scheme parameters optimization process. The empirical study on$\backslash$nreal-world traffic data confirms the effectiveness of the proposed$\backslash$nscheme. When zero-day applications are present, the classification$\backslash$nperformance of the new scheme is significantly better than four$\backslash$nstate-of-the-art methods: random forest, correlation-based$\backslash$nclassification, semi-supervised clustering, and one-class SVM.},
+    author = {Zhang, Jun Juyong and Chen, Xiao and Xiang, Yang Yingmeng and Zhou, Weicheng Wanlei and Wu, Junyong Jie},
+    doi = {10.1109/TNET.2014.2320577},
+    file = {:Users/kunyang/Documents/MendeleyDB/TNetworking/Zhang et al. - 2014 - Robust Network Traffic Classification.pdf:pdf},
+    isbn = {1063-6692},
+    issn = {1063-6692},
+    journal = {TNetworking},
+    keywords = {Semi-supervised learning,traffic classification,zero-day applications},
+    mendeley-groups = {CyberSpaceSecurity/Traffic},
+    number = {4},
+    pages = {1--14},
+    title = {{Robust Network Traffic Classification}},
+    volume = {23},
+    year = {2014}
+}
+
+
+@article{Bujlow2015,
+    abstract = {Deep Packet Inspection (DPI) is the state-of-the-art technology for traffic classification. According to the conventional wisdom, DPI is the most accurate classification technique. Consequently, most popular products, either commercial or open-source, rely on some sort of DPI for traffic classification. However, the actual performance of DPI is still unclear to the research community, since the lack of public datasets prevent the comparison and reproducibility of their results. This paper presents a comprehensive comparison of 6 well-known DPI tools, which are commonly used in the traffic classification literature. Our study includes 2 commercial products (PACE and NBAR) and 4 open-source tools (OpenDPI, L7-filter, nDPI, and Libprotoident). We studied their performance in various scenarios (including packet and flow truncation) and at different classification levels (application protocol, application and web service). We carefully built a labeled dataset with more than 750 K flows, which contains traffic from popular applications. We used the Volunteer-Based System (VBS), developed at Aalborg University, to guarantee the correct labeling of the dataset. We released this dataset, including full packet payloads, to the research community. We believe this dataset could become a common benchmark for the comparison and validation of network traffic classifiers. Our results present PACE, a commercial tool, as the most accurate solution. Surprisingly, we find that some opensource tools, such as nDPI and Libprotoident, also achieve very high accuracy.},
+    author = {Bujlow, Tomasz and Carela-Espa{\~{n}}ol, Valent{\'{i}}n and Barlet-Ros, Pere},
+    doi = {10.1016/j.comnet.2014.11.001},
+    file = {:Users/kunyang/Documents/MendeleyDB/Computer Networks/Bujlow, Carela-Espa{\~{n}}ol, Barlet-Ros - 2015 - Independent comparison of popular DPI tools for traffic classification.pdf:pdf},
+    issn = {13891286},
+    journal = {Computer Networks},
+    keywords = {Deep packet inspection,L7-filter,Libprotoident,NBAR,PACE,nDPI},
+    mendeley-groups = {CyberSpaceSecurity/Traffic},
+    pages = {75--89},
+    publisher = {Elsevier B.V.},
+    title = {{Independent comparison of popular DPI tools for traffic classification}},
+    url = {http://dx.doi.org/10.1016/j.comnet.2014.11.001},
+    volume = {76},
+    year = {2015}
+}
+%
+
+@article{Haddadi2016,
+    abstract = {Botnets represent one of the most aggressive threats against cyber security. Different techniques using different feature sets have been proposed for botnet traffic analysis and classification. However, no work has been performed to study the effect of such differences. In this paper, we perform a study on the effect of (if any) the feature sets of network traffic flow exporters. To this end, we explore five different traffic flow exporters (each with a different set of flow features) using two different protocol filters [Hypertext Transfer Protocol (HTTP) and Domain Name System (DNS)] and five different classifiers. We evaluate all these on eight different botnet traffic data sets. Our results indicate that the use of a flow exporter and a protocol filter indeed has an effect on the performance of botnet traffic classification. Experimental results show that the best performance is achieved using Tranalyzer flow exporter and HTTP filter with the C4.5 classifier. {\textcopyright} 2007-2012 IEEE.},
+    author = {Haddadi, Fariba and Zincir-Heywood, A. Nur},
+    doi = {10.1109/JSYST.2014.2364743},
+    file = {:Users/kunyang/Documents/MendeleyDB/IEEE Systems Journal/Haddadi, Member, Zincir-heywood - 2016 - Benchmarking the Effect of Flow Exporters and Protocol Filters on Botnet Traffic Classification.pdf:pdf},
+    isbn = {1932-8184 VO - 10},
+    issn = {19379234},
+    journal = {IEEE Systems Journal},
+    keywords = {Botnet,flow exporters,protocol filters,traffic classification,traffic flow analysis},
+    mendeley-groups = {CyberSpaceSecurity/Traffic},
+    number = {4},
+    pages = {1390--1401},
+    title = {{Benchmarking the Effect of Flow Exporters and Protocol Filters on Botnet Traffic Classification}},
+    volume = {10},
+    year = {2016}
+}
+
+@article{Loo2016,
+    abstract = {Data stream mining techniques are able to classify evolving data streams such as network traffic in the presence of concept drift. In order to classify high bandwidth network traffic in real-time, data stream mining classifiers need to be implemented on reconfigurable high throughput platform, such as Field Programmable Gate Array (FPGA). This paper proposes an algorithm for online network traffic classification based on the concept of incremental k-means clustering to continuously learn from both labeled and unlabeled flow instances. Two distance measures for incremental k-means (Euclidean and Manhattan) distance are analyzed to measure their impact on the network traffic classification in the presence of concept drift. The experimental results on real datasets show that the proposed algorithm exhibits consistency, up to 94{\&}{\#}x25; average accuracy for both distance measures, even in the presence of concept drifts. The proposed incremental k-means classification using Manhattan distance can classify network traffic 3 times faster than Euclidean distance at 671 thousands flow instances per second.},
+    author = {Loo, H R and Joseph, S B and Marsono, M N},
+    doi = {Artn 1465810
+    10.1155/2016/1465810},
+    file = {:Users/kunyang/Documents/MendeleyDB/Applied Computational Intelligence and Soft Computing/Loo, Joseph, Marsono - 2016 - Online Incremental Learning for High Bandwidth Network Traffic Classification(2).pdf:pdf},
+    isbn = {1687-9724},
+    journal = {Applied Computational Intelligence and Soft Computing},
+    mendeley-groups = {CyberSpaceSecurity/Traffic},
+    publisher = {Hindawi Publishing Corporation},
+    title = {{Online Incremental Learning for High Bandwidth Network Traffic Classification}},
+    volume = {2016},
+    year = {2016}
+}
+
 
 references for the IEEEtran.bst documentation
 IEEEtran homepage
