@@ -128,9 +128,10 @@
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
-  % \usepackage[pdftex]{graphicx}
+  \usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../pdf/}{../jpeg/}}
+   \graphicspath{{figures/}}
   % and their extensions so you won't have to specify these with
   % every instance of \includegraphics
   % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
@@ -475,7 +476,69 @@
 % in the abstract or keywords.
 \IEEEtitleabstractindextext{%
 \begin{abstract}
-The abstract goes here.
+
+\cite{Zhang2018}
+Accurate application classification is important and useful to improve network
+performance. However, with the continuous expansion of network scale and the
+rapid increase of network users, it is very difficult for the existing application
+classification methods to accurately identify and classify network applications.
+Currently, most classification methods are suitable for small-scale data sets
+and cannot achieve high classification accuracy because of the shallow learn-
+ing structure and the limited learning ability. The emergence of deep learning
+technology and software-defined networking (SDN) enables the application
+classification method to process large-scale data.  In this paper, by leveraging
+the SDN architecture, we present a novel hybrid deep neural network–based
+application classification method, which achieves high classification accuracy
+without the manual feature selection and extraction. In the proposed applica-
+tion classification framework, by taking the advantage of the logical centralized
+control and powerful computing capability, the massive network traffic is eas-
+ily collected and processed by the SDN controller. The processed data is used to
+train the hybrid deep neural network, which is composed of the stacked autoen-
+coder and softmax regression layer. The deep flow features can be obtained from
+the stacked autoencoder automatically instead of the manual feature selection
+and extraction. The softmax regression layer is used as the classifier to realize the
+application classification. Finally, simulation results demonstrate that our pro-
+posed classification method is effective and gets higher classification accuracy
+than the support vector machine–based classification method
+
+As well known, accurate network application classification is important and useful for many network activities such
+as network management, quality-of-service (QoS) provisioning, network security, and intrusion detection.
+1 Networkapplication classification classifies different network traffic and divides the traffic into different classes. To achieve accu- rate network applications, a large number of different application classification methods have been proposed in the past
+few decades, mainly including port-based approach, payload-based approach, and machine learning–based approach.
+2
+In
+current years, the most widely used technology for application classification is the machine learning–based approach, in
+which backpropagation (BP) neural network, Bayesian network, support vector machine (SVM), and C4.5 decision tree
+are usually applied to the classification.
+3-11
+Different from identifying port number in the port-based approach as well as inspecting payload content in the
+payload-based approach, in machine learning–based classification methods, the flow features statistics, including the
+size of packet, interpacket time, and flow duration time, are used to automatically identify and classify network applica-
+tion by using machine learning. The shallow neural network is generally used to build the application classifier in lots of
+machine learning–based classification methods. The shallow neural network has limited feature learning ability because
+of few nonlinear feature extraction layers, and it is more suitable to deal with small-scale data problems. However, with
+the constant enlargement of network scale and the coming of the big data era, network traffic explosively grows, and large
+amounts of novel network applications have generated. It is very challenging for traditional shallow neural network–based
+classification method to deal with massive network traffic because of the limited feature learning ability. In order to extract
+deep feature and obtain high-level feature presentation from a large-scale data set, deep learning network is required.
+Recently, deep learning has been proposed, and some deep neural network models, for example, stacked autoencoder,
+convolutional neural network (CNN), and deep belief network (DBN), have been widely applied in many fields such as
+classification, speech recognition, and natural language processing.
+12
+Deep learning is a novel machine learning algorithm
+that is used to train deeper neural networks. By contrast, traditional learning algorithm, which is adopted to train shallow
+neural networks, is not suitable for training deep neural networks because of the reason of easily getting stuck in local
+optima and diffusion of gradient.
+13
+Compared with traditional shallow neural networks, deep neural networks contain
+multiple hidden layers such that it has the stronger nonlinear feature extraction ability to achieve the higher level or more
+complex feature presentation. Meanwhile, deep neural networks have the ability of yielding higher classification accuracy
+than shallow neural networks. Hence, in this paper, we propose a novel classification method on the basis of the hybrid
+deep learning network model.
+
+
+ Network Traffic Classifier (NTC) is an important
+part of current network monitoring systems, being its task to infer the network service that is currently used by a communication flow (e.g. HTTP, SIP…). The detection is based on a number of features associated with the communication flow, for example, source and destination ports and bytes transmitted per packet. NTC is important because much information about a current network flow can be learned and anticipated just by knowing its network service (required latency, traffic volume, possible duration…). This is of particular interest for the management and monitoring of Internet of Things (IoT) networks, where NTC will help to segregate traffic and behavior of heterogeneous devices and services. In this paper, we present a new technique for NTC based on a combination of deep learning models that can be used for IoT traffic. We show that a Recurrent Neural Network (RNN) combined with a Convolutional Neural Network (CNN) provides best detection results. The natural domain for a CNN, which is image processing, has been extended to NTC in an easy and natural way. We show that the proposed method provides better detection results than alternative algorithms without requiring any feature engineering, which is usual when applying other models. A complete study is presented on several architectures that integrate a CNN and an RNN, including the impact of the features chosen and the length of the network flows used for training.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -515,42 +578,61 @@ The abstract goes here.
 
 
 \IEEEraisesectionheading{\section{Introduction}\label{sec:introduction}}
-% Computer Society journal (but not conference!) papers do something unusual
-% with the very first section heading (almost always called "Introduction").
-% They place it ABOVE the main text! IEEEtran.cls does not automatically do
-% this for you, but you can achieve this effect with the provided
-% \IEEEraisesectionheading{} command. Note the need to keep any \label that
-% is to refer to the section immediately after \section in the above as
-% \IEEEraisesectionheading puts \section within a raised box.
+%% Computer Society journal (but not conference!) papers do something unusual
+%% with the very first section heading (almost always called "Introduction").
+%% They place it ABOVE the main text! IEEEtran.cls does not automatically do
+%% this for you, but you can achieve this effect with the provided
+%% \IEEEraisesectionheading{} command. Note the need to keep any \label that
+%% is to refer to the section immediately after \section in the above as
+%% \IEEEraisesectionheading puts \section within a raised box.
+%
+%
+%
+%
+%% The very first letter is a 2 line initial drop letter followed
+%% by the rest of the first word in caps (small caps for compsoc).
+%% 
+%% form to use if the first word consists of a single letter:
+%% \IEEEPARstart{A}{demo} file is ....
+%% 
+%% form to use if you need the single drop letter followed by
+%% normal text (unknown if ever used by the IEEE):
+%% \IEEEPARstart{A}{}demo file is ....
+%% 
+%% Some journals put the first two words in caps:
+%% \IEEEPARstart{T}{his demo} file is ....
+%% 
+%% Here we have the typical use of a "T" for an initial drop letter
+%% and "HIS" in caps to complete the first word.
+%\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
+%for IEEE Computer Society journal papers produced under \LaTeX\ using
+%IEEEtran.cls version 1.8b and later.
+%% You must have at least 2 lines in the paragraph with the drop letter
+%% (should never be an issue)
+%I wish you the best of success.
 
 
 
+\cite{Shen2017}
+With a profusion of network applications, traf-
+fic classification plays a crucial role in network management and policy-based security control. The widely used encryption transmission protocols, such as the secure socket layer/transport layer security (SSL/TLS) protocols, lead to the failure of tradi- tional payload-based classification methods. Existing methods for encrypted traffic classification cannot achieve high discrimination accuracy for applications with similar fingerprints. Ins. In this paper, we propose an attribute-aware encrypted traffic classification method based on the second-order Markov Chains. We start by exploring approaches that can further improve the perfor- mance of existing methods in terms of discrimination accuracy, and make promising observations that the application attribute bigram, which consists of the certificate packet length and the first application data size in SSL/TLS sessions, contributes to application discrimination. To increase the diversity of applica- tion fingerprints, we develop a new method by incorporating the attribute bigrams into the second-order homogeneous Markov chains. Extensive evaluation results show that the proposed method can improve the classification accuracy by 29% on the average compared with the state-of-the-art Markov-based method
 
-% The very first letter is a 2 line initial drop letter followed
-% by the rest of the first word in caps (small caps for compsoc).
+NETWORK traffic is composed of packets carrying data belonging to a variety of applications. Classification of
+traffic helps network operators to identify specific applications and protocols that exist in a network, which can be useful for many different purposes [19], [32], [33], such as network planning, application prioritization for QoS guarantees, and
+policy deployment for security control. For instance, a network operator might want to assign traffic from known popular applications with a higher priority for better user experience, and an enterprise network operator might block traffic from a given application by means of application-level firewalls. Traditional traffic classification techniques are often
+designed based on the analysis of packet contents, such as the port-based methods and the payload-based methods. In recent years we have seen a dramatic growth in the usage of encryp- tion protocols, such as the SSL/TLS protocols [13], [16]. Since packet payloads are encrypted, these methods can no longer fulfil efficient recognition. Therefore, it is desirable to develop classification methods for encrypted traffic [12]. Korczynski and Duda proposed such a method by using the
+
+  \cite{Lopez-Martin2017}
+A Network Traffic Classifier (NTC) is an important
+part of current network monitoring systems, being its task to infer the network service that is currently used by a communication flow (e.g. HTTP, SIP…). The detection is based on a number of features associated with the communication flow, for example, source and destination ports and bytes transmitted per packet. NTC is important because much information about a current network flow can be learned and anticipated just by knowing its network service (required latency, traffic volume, possible duration…). This is of particular interest for the management and monitoring of Internet of Things (IoT) networks, where NTC will help to segregate traffic and behavior of heterogeneous devices and services. In this paper, we present a new technique for NTC based on a combination of deep learning models that can be used for IoT traffic. We show that a Recurrent Neural Network (RNN) combined with a Convolutional Neural Network (CNN) provides best detection results. The natural domain for a CNN, which is image processing, has been extended to NTC in an easy and natural way. We show that the proposed method provides better detection results than alternative algorithms without requiring any feature engineering, which is usual when applying other models. A complete study is presented on several architectures that integrate a CNN and an RNN, including the impact of the features chosen and the length of the network flows used for training.
+
+
+\cite{Anderson2017}
+
+%
+%\hfill mds
 % 
-% form to use if the first word consists of a single letter:
-% \IEEEPARstart{A}{demo} file is ....
-% 
-% form to use if you need the single drop letter followed by
-% normal text (unknown if ever used by the IEEE):
-% \IEEEPARstart{A}{}demo file is ....
-% 
-% Some journals put the first two words in caps:
-% \IEEEPARstart{T}{his demo} file is ....
-% 
-% Here we have the typical use of a "T" for an initial drop letter
-% and "HIS" in caps to complete the first word.
-\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
-for IEEE Computer Society journal papers produced under \LaTeX\ using
-IEEEtran.cls version 1.8b and later.
-% You must have at least 2 lines in the paragraph with the drop letter
-% (should never be an issue)
-I wish you the best of success.
-
-\hfill mds
- 
-\hfill August 26, 2015
+%\hfill August 26, 2015
 
 \subsection{Subsection Heading Here}
 Subsection text here.
@@ -561,6 +643,71 @@ Subsection text here.
 \subsubsection{Subsubsection Heading Here}
 Subsubsection text here.
 
+\section{Related work}
+\cite{Zhang2018}
+In recent years, many research works have already applied machine learning methods in network application
+classification.
+2-11,23,24
+Most of them are focused on improving the machine learning algorithm and feature selection since
+the selected features and machine learning algorithm have a great effect on the classifier's performance.
+However, with the explosive growth of network traffic, it is very difficult for the current network architecture to deal with
+large amounts of data. Therefore, to obtain a set of optimal flow features and improve the classification accuracy, Santos
+da Silva et al
+24
+designed a novel flow features selection architecture, which could determine the optimal subset of flow
+features for the classification of different types of traffic flows by taking advantage of the SDN architecture. 
+ Different from most research works on application classification, to achieve the classification and satisfy
+the QoS requirement of the network application at the same time, Wang et al
+11
+devised a QoS-aware traffic classification
+framework in SDN. In this framework, deep packet inspection technology was used to detect the elephant flow, and the
+semisupervised machine learning algorithm was used to achieve the QoS-aware traffic classification through the mapping
+function. Specifically, the application flow was mapped to a certain predefined QoS class according to flow features in the
+mapping function. Inspired by the aforementioned research works, in this paper, we propose an application classification framework by
+combing SDN and deep learning. With the powerful computing capability, we use the controller to deal with the massive
+network traffic and flow statistics. We construct a hybrid deep learning network model, which is composed of the stacked
+autoencoder and the softmax regression layer, to extract flow features and build the application classifie
+
+
+
+\section{The proposed method}
+
+
+\section{Experiments}
+
+To evaluate the performance of the proposed application classification method, we have conducted extensive simulation
+experiments.
+
+
+\subsection{Dataset}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=2.5in]{dataset_distribution}
+% where an .eps filename suffix will be assumed under latex,
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+\caption{Simulation results for the network.}
+\label{fig_sim}
+\end{figure}
+
+
+\cite{}
+We evaluate the proposed deep learning–based application classification method on the real-world traffic data set. We
+select the Moore data set for testing the application classification method, which is obtained from the computer laboratory
+in the University of Cambridge and has been widely used in many traffic classification research works.
+2,6,8,23,34
+The data
+set is composed of 10 separate data sets collected in the different period of a day, and each data set is only composed
+of TCP traffic flows. In each data set, for any TCP traffic flow, its 248 flow features such as the size of flow and the
+duration time of flow and the corresponding application class label are recorded. All network flows are categorized into
+10 classes (ie, World Wide Web (WWW), Mail, Bulk, Services, peer-to-peer (P2P), Database, Attack, Interactive, Games,
+and Multimedia). The traffic classification and the corresponding network applications are summarized in Table 2.
+Furthermore, to keep the balance of the sample data set, we delete the corresponding 2 types of application samples
+from the 10 data sets because the sample numbers of Games and Interactive are relatively small. Moreover, to make the
+data set more uniform and to get more accurate simulation results, we randomly select sample data from the 10 data sets
+and classify all the network applications into 10 classes (ie, WWW, Mail, File Transfer Protocol (FTP)–control, FTP-pasv,
+Attack, P2P, Database, FTP-data, Multimedia, and Services).
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -658,14 +805,14 @@ Subsubsection text here.
 % \fnbelowfloat command of the stfloats package.
 
 
-\section{}
+\section{Discussions}
 
 \section{Conclusion}\label{ch:first}
 The conclusion goes here \ref{ch:first}.
 
-
-
-
+\cite{Wang2017}
+\cite{Taylor2018}
+\cite{Shen2017}
 
 % if have a single appendix:
 %\appendix[Proof of the Zonklar Equations]
@@ -686,10 +833,10 @@ The conclusion goes here \ref{ch:first}.
 \section{Proof of the First Zonklar Equation}
 Appendix one text goes here.
 
-% you can choose not to have a title for an appendix
-% if you want by leaving the argument blank
-\section{}
-Appendix two text goes here.
+%% you can choose not to have a title for an appendix
+%% if you want by leaving the argument blank
+%\section{}
+%Appendix two text goes here.
 
 
 % use section* for acknowledgment
@@ -728,20 +875,21 @@ The authors would like to thank...
 % http://mirror.ctan.org/biblio/bibtex/contrib/doc/
 % The IEEEtran BibTeX style support page is at:
 % http://www.michaelshell.org/tex/ieeetran/bibtex/
-%\bibliographystyle{IEEEtran}
+\bibliographystyle{bibtex/IEEEtran}
 % argument is your BibTeX string definitions and bibliography database(s)
-%\bibliography{IEEEabrv,../bib/paper}
+%\bibliography{../bibtex/IEEEabrv,../bibtex/IEEEbib-July15}
+\bibliography{bibtex/IEEEbib-July15}
 %
-% <OR> manually copy in the resultant .bbl file
-% set second argument of \begin to the number of references
-% (used to reserve space for the reference number labels box)
-\begin{thebibliography}{1}
-
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-
-\end{thebibliography}
+%% <OR> manually copy in the resultant .bbl file
+%% set second argument of \begin to the number of references
+%% (used to reserve space for the reference number labels box)
+%\begin{thebibliography}{1}
+%
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+%  
+%\end{thebibliography}
 
 % biography section
 % 
@@ -753,29 +901,29 @@ H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
 % simpler here.)
 %\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
 % or if you just want to reserve a space for a photo:
-
-\begin{IEEEbiography}{Michael Shell}
-Biography text here.
-\end{IEEEbiography}
-
-% if you will not have a photo at all:
-\begin{IEEEbiographynophoto}{John Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
-
-% insert where needed to balance the two columns on the last page with
-% biographies
-%\newpage
-
-\begin{IEEEbiographynophoto}{Jane Doe}
-Biography text here.
-\end{IEEEbiographynophoto}
-
-% You can push biographies down or up by placing
-% a \vfill before or after them. The appropriate
-% use of \vfill depends on what kind of text is
-% on the last page and whether or not the columns
-% are being equalized.
+%
+%\begin{IEEEbiography}{Michael Shell}
+%Biography text here.
+%\end{IEEEbiography}
+%
+%% if you will not have a photo at all:
+%\begin{IEEEbiographynophoto}{John Doe}
+%Biography text here.
+%\end{IEEEbiographynophoto}
+%
+%% insert where needed to balance the two columns on the last page with
+%% biographies
+%%\newpage
+%
+%\begin{IEEEbiographynophoto}{Jane Doe}
+%Biography text here.
+%\end{IEEEbiographynophoto}
+%
+%% You can push biographies down or up by placing
+%% a \vfill before or after them. The appropriate
+%% use of \vfill depends on what kind of text is
+%% on the last page and whether or not the columns
+%% are being equalized.
 
 %\vfill
 
