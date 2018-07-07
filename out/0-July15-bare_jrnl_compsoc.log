@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.4)  4 JUL 2018 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.4)  4 JUL 2018 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -176,31 +176,41 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 555.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 561.
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 741.
+
+./0-July15-bare_jrnl_compsoc.tex:665: Undefined control sequence.
+l.665 \chapref
+              *{ch:first}. Also see~\ref{ch:first}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 742.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.03> on input line 741.
+(Font)              <8.03> on input line 742.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.62097> on input line 741.
+(Font)              <5.62097> on input line 742.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.015> on input line 741.
-LaTeX Font Info:    Calculating math sizes for size <7.02625> on input line 789
+(Font)              <4.015> on input line 742.
+LaTeX Font Info:    Calculating math sizes for size <7.02625> on input line 790
 .
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.02625> on input line 789.
+(Font)              <7.02625> on input line 790.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.91833> on input line 789.
+(Font)              <4.91833> on input line 790.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <3.51312> on input line 789.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              <3.51312> on input line 790.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 (/home/kun/PycharmProjects/July15/out/0-July15-bare_jrnl_compsoc.aux) ) 
 Here is how much of TeX's memory you used:
- 1291 strings out of 494953
- 23330 string characters out of 6180978
+ 1292 strings out of 494953
+ 23340 string characters out of 6180978
  72864 words of memory out of 5000000
- 4615 multiletter control sequences out of 15000+600000
+ 4616 multiletter control sequences out of 15000+600000
  48819 words of font info for 99 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  31i,8n,31p,221b,289s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -212,7 +222,7 @@ tic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
 Output written on /home/kun/PycharmProjects/July15/out/0-July15-bare_jrnl_comps
-oc.pdf (1 page, 56972 bytes).
+oc.pdf (1 page, 57590 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream

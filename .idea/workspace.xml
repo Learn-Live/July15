@@ -4,8 +4,7 @@
     <list default="true" id="ffbf92c6-e7c7-4b0a-a577-2d8d680433e3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex" beforeDir="false" afterPath="$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/July15-IEEEtran/bare_jrnl_comsoc.tex" beforeDir="false" afterPath="$PROJECT_DIR$/July15-IEEEtran/bare_jrnl_comsoc.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/0-July15-bare_jrnl_compsoc.aux" beforeDir="false" afterPath="$PROJECT_DIR$/out/0-July15-bare_jrnl_compsoc.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/0-July15-bare_jrnl_compsoc.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/0-July15-bare_jrnl_compsoc.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/0-July15-bare_jrnl_compsoc.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/out/0-July15-bare_jrnl_compsoc.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/0-July15-bare_jrnl_compsoc.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/out/0-July15-bare_jrnl_compsoc.synctex.gz" afterDir="false" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="0-July15-bare_jrnl_compsoc.tex" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="402" column="11" selection-start-line="402" selection-start-column="11" selection-end-line="402" selection-end-column="11" />
+            <state relative-caret-position="308">
+              <caret line="659" lean-forward="true" selection-start-line="659" selection-end-line="659" />
               <folding>
                 <element signature="e#3169#3198#2" expanded="true" />
                 <element signature="e#3223#3240#2" expanded="true" />
@@ -41,53 +40,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bare_conf.tex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_conf.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bare_conf_compsoc.tex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_conf_compsoc.tex">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="bare_jrnl_compsoc.tex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_jrnl_compsoc.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bare_jrnl_comsoc.tex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_jrnl_comsoc.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bare_jrnl_transmag.tex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_jrnl_transmag.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <first_editor>
+                <caret lean-forward="true" />
               </first_editor>
               <second_editor />
             </state>
@@ -118,7 +76,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="183" />
     <option name="y" value="155" />
     <option name="width" value="1278" />
@@ -207,6 +165,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",latex.texify.filter.newcommand,latex.texify.filter.bibitem" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -229,20 +190,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="183" y="155" width="1278" height="741" extended-state="0" />
+    <frame x="0" y="-4" width="1920" height="1021" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" weight="0.425" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.5868853" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.30674157" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34269664" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26461038" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2505618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775112" visible="true" weight="0.17395945" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32977587" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5022489" side_tool="true" visible="true" weight="0.17395945" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -313,23 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_conf.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_conf_compsoc.tex">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_jrnl_transmag.tex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -351,20 +295,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_conf_compsoc.tex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bare_conf.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <first_editor>
+            <caret lean-forward="true" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="402" column="11" selection-start-line="402" selection-start-column="11" selection-end-line="402" selection-end-column="11" />
+        <state relative-caret-position="308">
+          <caret line="659" lean-forward="true" selection-start-line="659" selection-end-line="659" />
           <folding>
             <element signature="e#3169#3198#2" expanded="true" />
             <element signature="e#3223#3240#2" expanded="true" />
