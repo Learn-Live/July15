@@ -30,8 +30,12 @@
       <file leaf-file-name="0-July15-bare_jrnl_compsoc.tex" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5190">
-              <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="86">
+              <caret line="685" column="50" selection-start-line="685" selection-start-column="50" selection-end-line="685" selection-end-column="50" />
+              <folding>
+                <element signature="e#3169#3198#2" expanded="true" />
+                <element signature="e#3223#3240#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,8 +101,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/July15-IEEEtran/bare_jrnl_comsoc.tex" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex" />
         <option value="$PROJECT_DIR$/July15-IEEEtran/bibtex/IEEEbib-July15.bib" />
+        <option value="$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex" />
       </list>
     </option>
   </component>
@@ -134,17 +138,6 @@
             <path>
               <item name="July15" type="b2602c69:ProjectViewProjectNode" />
               <item name="July15" type="462c0819:PsiDirectoryNode" />
-              <item name="July15-IEEEtran" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July15" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July15" type="462c0819:PsiDirectoryNode" />
-              <item name="July15-IEEEtran" type="462c0819:PsiDirectoryNode" />
-              <item name="bibtex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July15" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July15" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -161,6 +154,9 @@
     <property name="settings.editor.selected.configurable" value="TexifyConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/July15-IEEEtran/figures" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/July15-IEEEtran/bibtex" />
       <recent name="$PROJECT_DIR$/July15-IEEEtran" />
@@ -228,7 +224,28 @@
       <option name="project" value="LOCAL" />
       <updated>1530675206064</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add 'abstract and introduction content'">
+      <created>1530976800263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530976800263</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add 'figures'">
+      <created>1530978262125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530978262125</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add 'figures and bib'">
+      <created>1530978303989</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530978303989</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -240,7 +257,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.425" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20882353" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.74264705" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -305,7 +322,10 @@
       <path value="$PROJECT_DIR$/July15-IEEEtran" />
     </ignored-roots>
     <MESSAGE value="add 'compiler successed'" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 'compiler successed'" />
+    <MESSAGE value="add 'abstract and introduction content'" />
+    <MESSAGE value="add 'figures'" />
+    <MESSAGE value="add 'figures and bib'" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 'figures and bib'" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -345,6 +365,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
           <caret line="163" column="1" lean-forward="true" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
+          <folding>
+            <element signature="e#3169#3198#2" expanded="true" />
+            <element signature="e#3223#3240#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,8 +522,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5190">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="86">
+          <caret line="685" column="50" selection-start-line="685" selection-start-column="50" selection-end-line="685" selection-end-column="50" />
+          <folding>
+            <element signature="e#3169#3198#2" expanded="true" />
+            <element signature="e#3223#3240#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
