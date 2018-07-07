@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="816" column="50" selection-start-line="816" selection-start-column="50" selection-end-line="816" selection-end-column="50" />
+              <caret line="946" column="50" selection-start-line="946" selection-start-column="50" selection-end-line="946" selection-end-column="50" />
               <folding>
                 <element signature="e#3169#3198#2" expanded="true" />
                 <element signature="e#3223#3240#2" expanded="true" />
@@ -48,15 +48,10 @@
       <file leaf-file-name="IEEEbib-July15.bib" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bibtex/IEEEbib-July15.bib">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+            <state relative-caret-position="290">
+              <caret line="235" column="83" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="83" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bibtex/README">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="IEEEabrv.bib" pinned="false" current-in-tab="false">
@@ -77,7 +72,9 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="60">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -98,8 +95,8 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/July15-IEEEtran/bare_jrnl_comsoc.tex" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/July15-IEEEtran/bibtex/IEEEbib-July15.bib" />
       </list>
     </option>
@@ -250,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530978472460</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add 'figures and bib'">
+      <created>1530982589053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530982589053</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update 'README.md'">
+      <created>1530991425324</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530991425324</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -262,7 +273,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.425" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29411766" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3720588" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -330,7 +341,8 @@
     <MESSAGE value="add 'abstract and introduction content'" />
     <MESSAGE value="add 'figures'" />
     <MESSAGE value="add 'figures and bib'" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 'figures and bib'" />
+    <MESSAGE value="update 'README.md'" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 'README.md'" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -480,14 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -515,13 +519,10 @@
         <state relative-caret-position="-10758" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bibtex/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/July15-IEEEtran/0-July15-bare_jrnl_compsoc.tex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="816" column="50" selection-start-line="816" selection-start-column="50" selection-end-line="816" selection-end-column="50" />
+          <caret line="946" column="50" selection-start-line="946" selection-start-column="50" selection-end-line="946" selection-end-column="50" />
           <folding>
             <element signature="e#3169#3198#2" expanded="true" />
             <element signature="e#3223#3240#2" expanded="true" />
@@ -529,10 +530,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bibtex/README">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/July15-IEEEtran/bibtex/IEEEbib-July15.bib">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+        <state relative-caret-position="290">
+          <caret line="235" column="83" selection-start-line="235" selection-start-column="13" selection-end-line="235" selection-end-column="83" />
         </state>
       </provider>
     </entry>
