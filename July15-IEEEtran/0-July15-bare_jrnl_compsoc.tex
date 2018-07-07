@@ -536,9 +536,6 @@ complex feature presentation. Meanwhile, deep neural networks have the ability o
 than shallow neural networks. Hence, in this paper, we propose a novel classification method on the basis of the hybrid
 deep learning network model.
 
-
- Network Traffic Classifier (NTC) is an important
-part of current network monitoring systems, being its task to infer the network service that is currently used by a communication flow (e.g. HTTP, SIP…). The detection is based on a number of features associated with the communication flow, for example, source and destination ports and bytes transmitted per packet. NTC is important because much information about a current network flow can be learned and anticipated just by knowing its network service (required latency, traffic volume, possible duration…). This is of particular interest for the management and monitoring of Internet of Things (IoT) networks, where NTC will help to segregate traffic and behavior of heterogeneous devices and services. In this paper, we present a new technique for NTC based on a combination of deep learning models that can be used for IoT traffic. We show that a Recurrent Neural Network (RNN) combined with a Convolutional Neural Network (CNN) provides best detection results. The natural domain for a CNN, which is image processing, has been extended to NTC in an easy and natural way. We show that the proposed method provides better detection results than alternative algorithms without requiring any feature engineering, which is usual when applying other models. A complete study is presented on several architectures that integrate a CNN and an RNN, including the impact of the features chosen and the length of the network flows used for training.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -632,6 +629,70 @@ stations and web browsers [4]. At first glance, fingerprinting smartphone apps m
 
 \cite{Anderson2017}
 
+\cite{Cao2017}
+Network traffic classification is defined as a classification of
+the network flows that are a mixture of various applications
+with different application protocols.1( Gomes JV, Inácio PRM, Pereira M, et al. Detection and classification of peer‐
+to‐peer traffic: a survey. ACM Computing Surveys. 2013;45(3):1–40.) It is the foundation of
+high‐performance network protocol design and network operation management.
+
+
+2.1 | Based on port numbers
+Traditional methods based on port numbers traffic classifiers
+simply inspect TCP or UDP port numbers and identify the
+application layer protocols according to the Internet Assigned
+Numbers Authority (IANA) list of well‐known ports and registered ports.9,22 The method was simple and fast in the past.
+However, it has become obsolete nowadays. The mapping
+between the ports and the target applications is getting more
+and more blurred. Thereby port numbers as a classification
+mechanism has not been applied, and it is difficult to
+deploy.23,24
+2.2 | Based on deep packet inspection
+Deep packet inspection methods, usually the most accurate,
+are based on inspection of the packets' payload. They rely
+on a database of previously known signatures that are associated to application protocols and search each packet for
+strings that match any of the signatures.1,5,6 Searching feature
+string by DPI is generally in the application layer, which is
+the load of TCP or UDP. Nevertheless, the main drawbacks
+of DPI techniques are the following: (1) There are more and
+more nonstandard applications and private protocols without
+the open and available protocol specification. This makes the
+feature string vary and hard to find. (2) Protocol syntax or
+semantic analysis of data needs strong computation power,
+leading to a great system overhead.25 So today, DPI is generally used in traffic identification of the specific applications
+or as a supplementary means of tagging the network dataset.
+2.3 | Based on protocol analysis
+Based on open protocol regulations, protocol analysis
+methods analyze the protocols using the following 3 ways
+for traffic classification: (1) establishing protocol state
+machines, (2) using fingerprint (protocol traffic features or
+behavior features) mining, and (3) analyzing flow features
+and behavior features of unknown protocols using software
+conversation approach.
+However, it is very difficult to resolve and obtain effective features because of the nonstandard applications and
+encryption protocols, degrading the classification quality.
+2.4 | Based on machine learning techniques
+The machine learning methods capture and identify the traffic data packets on the basis of calculating the statistical information of the specific application traffic. The methods use
+various machine learning algorithms, including supervised
+and unsupervised learning algorithms. Supervised learning
+builds a classification model from a training set of labeled
+instances, which is then used to classify unknown instances.
+Alternatively, unsupervised learning groups instances that
+
+ Network Traffic Classifier (NTC) is an important
+part of current network monitoring systems, being its task to infer the network service that is currently used by a communication flow (e.g. HTTP, SIP…). The detection is based on a number of features associated with the communication flow, for example, source and destination ports and bytes transmitted per packet. NTC is important because much information about a current network flow can be learned and anticipated just by knowing its network service (required latency, traffic volume, possible duration…). This is of particular interest for the management and monitoring of Internet of Things (IoT) networks, where NTC will help to segregate traffic and behavior of heterogeneous devices and services. In this paper, we present a new technique for NTC based on a combination of deep learning models that can be used for IoT traffic. We show that a Recurrent Neural Network (RNN) combined with a Convolutional Neural Network (CNN) provides best detection results. The natural domain for a CNN, which is image processing, has been extended to NTC in an easy and natural way. We show that the proposed method provides better detection results than alternative algorithms without requiring any feature engineering, which is usual when applying other models. A complete study is presented on several architectures that integrate a CNN and an RNN, including the impact of the features chosen and the length of the network flows used for training.
+
+In the recent times, the classification of internet traffic data has
+become a topic with an increased popularity, and its importance
+has also increased. In particular, the classification of traffic data
+in the corporate computer networks allows for users to use the
+network with a good performance and provides opportunities for
+the advantages such as increasing the quality of service provided
+to the network administrator, being able to prevent the unwanted
+traffics, being able to detect the network intrusion attempts and
+creating the desired security policies on the network
+
+
 \cite{Zhang2014}
 As a fundamental tool for network management and
 security, traffic classification has attracted increasing atte
@@ -698,18 +759,58 @@ of the fundamental traffic analysis methods for many tools
 performing traffic classification, network management,
 intrusion detection, and network forensics.
 
-%\hfill mds
-% 
-%\hfill August 26, 2015
+The traffic classification process labels traffic based on a
+predefined set of classes (e.g., applications). A commonly
+used classification approach is Deep Packet Inspection (DPI),
+which classifies traffic by inspecting the payload of each
+packet traversing the inspection point. DPI attains remarkably
+high accuracy for unencrypted traffic. Nonetheless, since DPI
+relies on the visibility of the payload to the classifier, its
+effectiveness diminishes with usage of data encryption, which
+is the conventional wisdom, or when examining the content
+of the packets traversing the network is forbidden or limited
+due to privacy or complexity concerns.
 
-\subsection{Subsection Heading Here}
-Subsection text here.
+%%\hfill mds
+%% 
+%%\hfill August 26, 2015
+%
+%\subsection{Subsection Heading Here}
+%Subsection text here.
+%
+%% needed in second column of first page if using \IEEEpubid
+%%\IEEEpubidadjcol
+%
+%\subsubsection{Subsubsection Heading Here}
+%Subsubsection text here.
+%
 
-% needed in second column of first page if using \IEEEpubid
-%\IEEEpubidadjcol
+\cite{Zhang2014}
+. For example,
+most QoS control mechanisms have a traffic classification
+module in order to properly prioritize different applications
+across the limited bandwidth. To implement appropriate security policies, it is essential for any network manager to obtain
+a proper understanding of applications and protocols in the
+network traffic. Over the last decade, traffic classification has
+been given a lot of attention from both industry and academia.
+There are three categories of traffic classification methods:
+port-based, payload-based, and flow statistics-based [2]. The
+traditional port-based method relies on checking standard ports
+used by well-known applications. However, it is not always
+reliable because not all current applications use standard ports.
+Some applications even obfuscate themselves by using the
+well-defined ports of other applications. The payload-based
+method searches for the application's signature in the payload
+of IP packets that can help avoid the problem of dynamic
+ports. Hence, it is most prevalent in current industry products However, more often than not, the payload-based method fails
+with encrypted traffic. In recent academic research, significant attention has been given to applying machine learning
+techniques to the flow statistics-based method. The statistical
+method only uses flow statistical features, such as interpacket
+time, without requiring deep packet inspection (DPI).
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
+A flow consists of successive IP packets with the same
+5-tuple: source IP, source port, destination IP, destination port,
+transport protocol.
 
 \section{Related work}
 \cite{Zhang2018}
@@ -800,11 +901,40 @@ reconfigurable high throughput platform, such as Field Programmable Gate Array (
 -means classification using Manhattan distance can classify network traffic 3 times
 fasterthanEuclideandistanceat671thousandsflowinstancespersecond
 
+\cite{Finsterbusch2014}
+A Survey of Payload-Based Traffic
+Classification Approaches
 
-\section{The proposed method}
+\cite{Siqueira2014}
+{A survey ofmethods for encrypted traffic classification and analysis}
 
+
+\section{Methodology}
+First, we would like to introduce the definition of a network flow in a TCP/IP-based network as mainly
+used in this work. It is a five-dimensional tuple having the following fields:
+<source IP, destination IP, source port, destination port, transport protocol >
+The transport protocol could be either TCP or UDP. A flow is basically a client–server communication or a dialog between two peers. We consider this concept important as it is close to the traffic
+patterns in real networks that we want to classify more accurate. For example, an HTTP client–server
+communication is a bidirectional flow that is initiated by the client. Authors in [7] analyze the traffic
+patterns inside a data center and define the concept of flow. They find that more than 80% of the data
+center flows last less than 10 s.
 
 \section{Experiments}
+
+
+In this paper, we used the Andrew Moore28 datasets, which
+consisted of 10 separate subdatasets each from a different
+period of the 24‐hour day. The day trace was split into 10
+blocks of approximately 1680 seconds. Each subdataset was
+represented by a data text file that included tens of thousands
+of data lines. Each line represented a traffic flow. The information is derived from packet header information.
+To reduce the imbalance of the data, we deleted the traffic
+flows of games and interactive, which the samples were very
+few. And we extracted samples randomly within 3000 from
+every subset to build the new datasets. The datasets included
+24 897 samples as in Table 1. The generation process of the
+training set in subsequent experiments is as follows:
+
 
 To evaluate the performance of the proposed application classification method, we have conducted extensive simulation
 experiments.

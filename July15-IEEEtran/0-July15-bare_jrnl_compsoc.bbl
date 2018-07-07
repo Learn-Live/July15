@@ -53,6 +53,11 @@ B.~Anderson and D.~McGrew, ``{Machine Learning for Encrypted Malware Traffic
   \url{http://dl.acm.org/citation.cfm?doid=3097983.3098163}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Cao2017}
+J.~Cao, Z.~Fang, G.~Qu, H.~Sun, and D.~Zhang, ``{An accurate traffic
+  classification model based on support vector machines},'' \emph{International
+  Journal of Network Management}, vol.~27, no.~1, pp. 1--15, 2017.
+
 \bibitem{Zhang2014}
 J.~J. Zhang, X.~Chen, Y.~Y. Xiang, W.~W. Zhou, and J.~J. Wu, ``{Robust Network
   Traffic Classification},'' \emph{TNetworking}, vol.~23, no.~4, pp. 1--14,
@@ -75,6 +80,20 @@ F.~Haddadi and A.~N. Zincir-Heywood, ``{Benchmarking the Effect of Flow
 H.~R. Loo, S.~B. Joseph, and M.~N. Marsono, ``{Online Incremental Learning for
   High Bandwidth Network Traffic Classification},'' \emph{Applied Computational
   Intelligence and Soft Computing}, vol. 2016, 2016.
+
+\bibitem{Finsterbusch2014}
+M.~Finsterbusch, C.~Richter, E.~Rocha, J.~A. M{\"{u}}ller, and
+  K.~H{\"{a}}n{\ss}gen, ``{A survey of payload-based traffic classification
+  approaches},'' \emph{IEEE Communications Surveys and Tutorials}, vol.~16,
+  no.~2, pp. 1135--1156, 2014.
+
+\bibitem{Siqueira2014}
+\BIBentryALTinterwordspacing
+I.~G. Siqueira, L.~B. Ruiz, and A.~Loureiro, ``{A survey ofmethods for
+  encrypted traffic classification and analysis},'' \emph{Internation Journal
+  of Network Management}, no. October 2005, pp. 17--31, 2014. [Online].
+  Available: \url{http://onlinelibrary.wiley.com/doi/10.1002/nem.604/abstract}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Wang2017}
 W.~Wang, Y.~Sheng, J.~Wang, X.~Zeng, X.~Ye, Y.~Huang, and M.~Zhu, ``{HAST-IDS:

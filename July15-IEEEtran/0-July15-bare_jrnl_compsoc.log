@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.4)  7 JUL 2018 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.4)  7 JUL 2018 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -231,118 +231,109 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 552.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 549.
 
  (/usr/local/texlive/2018basic/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8.03> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 552.
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 55
-2.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 549.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 54
+9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11.04124> on input line 552.
+(Font)              <11.04124> on input line 549.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.72884> on input line 552.
+(Font)              <7.72884> on input line 549.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.52061> on input line 552.
-LaTeX Font Info:    Try loading font information for U+pzd on input line 552.
+(Font)              <5.52061> on input line 549.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 549.
 
 (/usr/local/texlive/2018basic/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 577.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
 
-LaTeX Warning: Optional argument of \twocolumn too tall on page 1.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Calculating math sizes for size <7.02625> on input line 552
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 577.
+LaTeX Font Info:    Calculating math sizes for size <7.02625> on input line 621
 .
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.02625> on input line 552.
+(Font)              <7.02625> on input line 621.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.91833> on input line 552.
+(Font)              <4.91833> on input line 621.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <3.51312> on input line 552.
+(Font)              <3.51312> on input line 621.
  [1{/usr/local/texlive/2018basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11.04124> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 580.
-LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <11.04124> not available
-
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 580.
- [2]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 705.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 711.
-
-Underfull \hbox (badness 10000) in paragraph at lines 775--799
+] [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 876--900
 []\OT1/ppl/m/n/9.53561 Network traf-fic clas-si-fi-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--799
+Underfull \hbox (badness 10000) in paragraph at lines 876--900
 \OT1/ppl/m/n/9.53561 is a crit-i-cal net-work pro-cess-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--799
+Underfull \hbox (badness 10000) in paragraph at lines 876--900
 \OT1/ppl/m/n/9.53561 taskfornetworkmanagement.Trafficmeasurementandclas-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--799
+Underfull \hbox (badness 10000) in paragraph at lines 876--900
 \OT1/ppl/m/n/9.53561 traffichavenecessitatedtheneedfortrafficclassificationtech
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 775--799
+Underfull \hbox (badness 10000) in paragraph at lines 876--900
 \OT1/ppl/m/n/9.53561 the-abil-i-ty-to-clas-si-fy-type-sof-t-raf-fi-cal-mostin-s
 tan-ta-neous-lyto
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 800--802
+Underfull \hbox (badness 1371) in paragraph at lines 901--903
 []\OT1/ppl/m/n/9.53561 -means clas-si-fi-ca-tion us-ing Man-hat-tan dis-tance c
 an
  []
 
-<figures/dataset_distribution.png, id=13, 321.2pt x 278.03876pt>
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 943.
+<figures/dataset_distribution.png, id=16, 321.2pt x 278.03876pt>
 File: figures/dataset_distribution.png Graphic file (type png)
 <use figures/dataset_distribution.png>
-Package pdftex.def Info: figures/dataset_distribution.png  used on input line 8
-17.
+Package pdftex.def Info: figures/dataset_distribution.png  used on input line 9
+47.
 (pdftex.def)             Requested size: 180.67499pt x 156.40065pt.
-[3] (./0-July15-bare_jrnl_compsoc.bbl) [4 <./figures/dataset_distribution.png>]
-(./0-July15-bare_jrnl_compsoc.aux) ) 
+[4] (./0-July15-bare_jrnl_compsoc.bbl
+Underfull \hbox (badness 2435) in paragraph at lines 85--89
+[]\OT1/ppl/m/n/8.03 M. Fin-ster-busch, C. Richter, E. Rocha, J. A. M[]uller, an
+d
+ []
+
+) [5 <./figures/dataset_distribution.png>] (./0-July15-bare_jrnl_compsoc.aux) )
+ 
 Here is how much of TeX's memory you used:
- 2484 strings out of 494091
- 41580 string characters out of 6163524
- 118885 words of memory out of 5000000
- 6134 multiletter control sequences out of 15000+600000
- 43991 words of font info for 90 fonts, out of 8000000 for 9000
+ 2486 strings out of 494091
+ 41591 string characters out of 6163524
+ 111873 words of memory out of 5000000
+ 6138 multiletter control sequences out of 15000+600000
+ 42105 words of font info for 88 fonts, out of 8000000 for 9000
  322 hyphenation exceptions out of 8191
  41i,7n,31p,1499b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018basic/texmf-dist/fo
-nts/enc/dvips/base/8r.enc}</usr/local/texlive/2018basic/texmf-dist/fonts/type1/
-urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/ur
-w/helvetic/uhvr8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/
-helvetic/uhvro8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/p
-alatino/uplr8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/pal
-atino/uplri8a.pfb></usr/local/texlive/2018basic/texmf-dist/fonts/type1/urw/zapf
-ding/uzdr.pfb>
-Output written on 0-July15-bare_jrnl_compsoc.pdf (4 pages, 150474 bytes).
+{/usr/local/texlive/2018basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/loca
+l/texlive/2018basic/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/
+texlive/2018basic/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
+xlive/2018basic/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texl
+ive/2018basic/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texli
+ve/2018basic/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on 0-July15-bare_jrnl_compsoc.pdf (5 pages, 152785 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
